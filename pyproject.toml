@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "credit-score-ml-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme <guiemanoeloliveira@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "credit_score_ml_classifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+plotly = "^5.13.1"
+sklearn = "^0.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
