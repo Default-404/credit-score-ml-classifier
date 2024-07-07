@@ -11,7 +11,7 @@ jupyter = "^1.0.0"
 pandas = "^2.2.0"
 numpy = "^1.26.4"
 plotly = "^5.18.0"
-scikit-learn = "^1.4.0"
+scikit-learn = "^1.5.0"
 ipykernel = "^6.29.2"
 
 
